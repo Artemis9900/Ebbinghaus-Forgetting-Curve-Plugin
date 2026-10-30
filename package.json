@@ -1,0 +1,18 @@
+{
+    "name":  "dsh-ebbinghaus",
+    "version":  "0.2.0",
+    "description":  "Ebbinghaus forgetting-curve memory for DeepSeek Harness: R = curve(idle/S), 5 selectable curves (exponential/power/hyperbolic/logarithmic/gaussian), strength grows with review, weak memories get archived. Local SQLite, no model calls.",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js"
+                },
+    "license":  "MIT",
+    "dsh":  {
+                "bundle":  {
+                               "patch":  [
+                                             "./cordis.patch.yml"
+                                         ]
+                           }
+            }
+}

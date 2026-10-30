@@ -1,0 +1,4 @@
+# Bundle layer: applied when a profile lists dsh-ebbinghaus.
+- insert:
+    - id: dsh-ebbinghaus
+      name: dsh-ebbinghaus
