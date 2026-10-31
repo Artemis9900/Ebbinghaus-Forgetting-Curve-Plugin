@@ -132,5 +132,6 @@ x 的直觉：强度 S=4 的记忆，放了 8 天，x=2；强度 S=16 的记忆�
      改了源码却忘了复制到 node_modules 的运行目录，重启后行为不会变。
 
 使用方法
-1.解压dsh-ebbinghaus-0.1.0.zip
+1.解压Ebbinghaus Forgetting Curve Plugin.zip
 2.运行powershell -ExecutionPolicy Bypass -File .\install.ps1
+3.重启DSH
